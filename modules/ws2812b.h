@@ -91,7 +91,7 @@ static const Frame ZERO = {
     {0.1, 0, 0}
 };
 static const Frame ONE = {
-    {0, 0, 1, 0, 0,
+    {0, 1, 1, 1, 0,
     0, 0, 1, 0, 0,
     0, 0, 1, 0, 0,
     0, 1, 1, 0, 0,
