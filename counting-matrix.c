@@ -12,9 +12,6 @@
 int8_t count_idx = 0;
 static volatile uint32_t last_time = 0;
 _ws2812b * ws;
-static bool is_whitin_range(volatile int8_t value) { return (value > 0 && value < 10 ? true : false); }
-
-static void set_bounds(volatile int8_t *value) { *value = (*value < 0) ? 9 : 0; }
 
 void init_gpio(){
     // inicia o LED RGB
